@@ -212,12 +212,12 @@
    <div id="project" class="container-fluid project-section p-5">
     <h2 class="text-white text-center p-3 pb-0 ">My <span class="color">Projects</span></h2>
     <div class="d-flex my-3 align-items-center title">
-        <h5 class="text-white me-4 project-btn">All</h5>
-        <h5 class="text-white me-4">Front-end</h5>
-        <h5 class="text-white me-4">Back-end</h5>
+        <h5 class="text-white me-4 same" onclick="Dev('full')"  id="full">All</h5>
+        <h5 class="text-white me-4 same" onclick="Dev('front')"  id="front">Front-end</h5>
+        <h5 class="text-white me-4 same" onclick="Dev('back')" id="back">Back-end</h5>
     </div>
     <div class="row pb-5">
-        <div class="col-lg-4 col-md-6 projects">
+        <div class="col-lg-4 col-md-6 projects front">
             <div class="project">
                 <img src="./image/viber_image_1.jpg" alt="">
                 <h5 class="text-white my-3">Travel Websit</h5>
@@ -231,11 +231,11 @@
                 </div>
             </div>
         </div>
-       <div class="col-lg-4 col-md-6 projects">
+       <div class="col-lg-4 col-md-6 projects front">
             <div class="project">
                 <img src="./image/viber_image_3.png" alt="">
                 <h5 class="text-white my-3">Shopping Cart</h5>
-                <p class="text-white mb-3">using html, css, bootstrap javascript</p>
+                <p class="text-white mb-3">using html, css, bootstrap, javascript</p>
                 <div class="d-flex text-white">
                     <i class="fa-brands fa-github me-2"></i>
                     <h6 class="me-3"><a class="text-decoration-none color" href="https://github.com/yatishan/YHA/tree/main/Assignment/Yati_Shan16">Source</a></h6>
@@ -245,7 +245,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 projects">
+        <div class="col-lg-4 col-md-6 projects front">
             <div class="project">
                 <img src="./image/viber_image_1.jpg" alt="">
                 <h5 class="text-white my-3">Travel Websit</h5>
@@ -259,7 +259,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 projects">
+        <div class="col-lg-4 col-md-6 projects full">
             <div class="project">
                 <img src="./image/viber_image_2png.png" alt="">
                 <h5 class="text-white my-3">Skincare & Cosmetic</h5>
@@ -273,7 +273,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 projects">
+        <div class="col-lg-4 col-md-6 projects full">
             <div class="project">
                 <img src="./image/viber_image_2png.png" alt="">
                 <h5 class="text-white my-3">Skincare & Cosmetic</h5>
@@ -287,12 +287,12 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6 projects">
+        <div class="col-lg-4 col-md-6 projects full">
             <div class="project">
                 <img src="./image/viber_image_2png.png" alt="">
                 <h5 class="text-white my-3">Skincare & Cosmetic</h5>
                 <p class="text-white mb-3">Skincare & Cosmetic Shop website with html, css, bootstrap, javascript, php ,mysql</p>
-                <div class="d-flex text-white">
+                <div class="d-flex text-white full">
                     <i class="fa-brands fa-github me-2"></i>
                     <h6 class="me-3"><a class="text-decoration-none color" href="https://drive.google.com/drive/folders/1G3JAvkR9emEdFVbhU5WhszJ58DO1-bwr?usp=drive_link">Source</a></h6>
                     <h6 class="me-3">|</h6>
@@ -315,14 +315,14 @@
                     <i class="fa-solid fa-phone icon text-white fs-2 me-3"></i>
                     <div class="pt-3">
                         <h6 class="text-white">Phone</h6>
-                        <p class="text-white">09123456890</p>
+                        <p class="text-white">09891556130</p>
                     </div>
                 </div>
                 <div class="d-flex align-items-center ps-3 mb-3">
                     <i class="fa-solid fa-envelope icon text-white fs-2 me-3"></i>
                     <div class="pt-3">
                         <h6 class="text-white">Email</h6>
-                        <p class="text-white">example@gmail.com</p>
+                        <p class="text-white">yatishan54@gmail.com</p>
                     </div>
                 </div>
                 <div class="d-flex align-items-center ps-3 mb-3">
@@ -400,4 +400,5 @@
    <!-- footer section end -->
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </html>
