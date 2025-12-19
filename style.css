@@ -170,6 +170,10 @@ nav .nav-btn:hover{
     color:#efee53;
 }
 
+.skill-section .tech .vue{
+    color:#3ef07c;
+}
+
 .skill-section .tech .php{
    display: flex;
    justify-content: center;
@@ -402,7 +406,7 @@ nav .nav-btn:hover{
         content: "Web Designer";
     }
     67%,100%{
-        content:"Youtuber"
+        content:"Web Learner"
     }
 }
 
