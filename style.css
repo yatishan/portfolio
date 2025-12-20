@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Cardo", serif;
 }
 
 body{
@@ -34,13 +36,6 @@ nav .navbar-nav{
     justify-content: center;
     align-items: center;
 }
-
-/* .home div{
-    width: 80%;
-    height: 3px;
-    background-color: #ed217a;
-    border-radius: 2px;
-} */
 
 .nav-item .nav-link:hover ~ div{
     width: 80%;
